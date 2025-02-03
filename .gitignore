@@ -1,0 +1,5 @@
+.terraform/*  # Ignore Terraform provider plugins and other local files
+terraform.tfstate* # Ignore Terraform state files (important!)
+*.tfvars       # Ignore variable files (often contain sensitive data)
+.DS_Store      # macOS specific files (optional)
+*.lock.hcl     # Terraform lock file
